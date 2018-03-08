@@ -1,0 +1,45 @@
+body{
+  background-color: #f2f2f2;
+}
+h4{
+  color: #17a2b8;
+}
+.td_input_task{
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+
+}
+.td_list_item{
+  display: inline;
+  font-weight: bold;
+}
+.td_done_btn{
+  float: right;
+  font-size: 5px;
+}
+
+.btn_cl{
+    background-color: #17a2b8;
+    border: none;
+    color: white;
+    padding: 5px 17px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    box-shadow: 3px 3px #bfbfbf;
+}
+
+.td_input_task {
+    width: 35%;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+.td_input_task:focus {
+    width: 80%;
+}
+
+.td_comp_item{
+  text-decoration: line-through;
+  color:#737373;
+}
